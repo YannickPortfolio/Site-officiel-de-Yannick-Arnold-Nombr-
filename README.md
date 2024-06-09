@@ -1,2 +1,92 @@
-# portfolio
-Yannick-ecotox
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Yannick Arnold Nombré</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: url('background-image.jpg') no-repeat center center/cover;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 3em;
+        }
+        .container {
+            padding: 2em;
+        }
+        .portfolio {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2em;
+        }
+        .portfolio-item {
+            background-color: #1e1e1e;
+            padding: 1em;
+            border-radius: 8px;
+            width: calc(33% - 2em);
+        }
+        .portfolio-item img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #1e1e1e;
+            text-align: center;
+            padding: 1em;
+        }
+        footer a {
+            color: #ffffff;
+            margin: 0 1em;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Yannick Arnold Nombré</h1>
+    </header>
+    <div class="container">
+        <h2>Mon Portfolio</h2>
+        <div class="portfolio">
+            <div class="portfolio-item">
+                <img src="project1.jpg" alt="Project 1">
+                <h3>Projet 1</h3>
+                <p>Description du projet 1.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="project2.jpg" alt="Project 2">
+                <h3>Projet 2</h3>
+                <p>Description du projet 2.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="project3.jpg" alt="Project 3">
+                <h3>Projet 3</h3>
+                <p>Description du projet 3.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <h2>Contactez-moi</h2>
+        <a href="https://ca.linkedin.com/in/yannick-arnold-nombr%C3%A9-8b9625124" target="_blank">LinkedIn</a>
+        <a href="https://www.researchgate.net/profile/Yannick-Nombre" target="_blank">ResearchGate</a>
+        <h2>Mes Articles de Presse</h2>
+        <a href="https://www.ledevoir.com/environnement/799763/ecotoxicologie-proteger-nature-humain" target="_blank">Article 1</a>
+        <a href="https://unpointcinq.ca/sinspirer/leurs-bons-coups-pour-le-climat-de-2023/attachment/yannick_carre/" target="_blank">Article 2</a>
+        <a href="https://unpointcinq.ca/sinspirer/leurs-bons-coups-pour-le-climat-de-2023/" target="_blank">Article 3</a>
+        <h2>Mon Article de Journal</h2>
+        <a href="https://www.erudit.org/fr/revues/liberte/2021-n331-liberte06003/95771ac/" target="_blank">Article de Journal</a>
+    </footer>
+</body>
+</html>
